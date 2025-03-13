@@ -25,6 +25,7 @@ new Swiper(".mySwiper",{
     }
     }
   )
+  document.querySelector("img").src = "https://ziadmahmoudas.github.io/fishm/img/down2.png";
 /* nav-bar: focus*/
 let navLinks = document.querySelectorAll(".nav-link");
 navLinks.forEach(link => {
