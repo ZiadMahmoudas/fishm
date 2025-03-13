@@ -25,7 +25,6 @@ new Swiper(".mySwiper",{
     }
     }
   )
-  document.querySelector("img").src = "https://ziadmahmoudas.github.io/fishm/img/down2.png";
 /* nav-bar: focus*/
 let navLinks = document.querySelectorAll(".nav-link");
 navLinks.forEach(link => {
@@ -226,49 +225,49 @@ iconCart.addEventListener("click", () => {
 const product = [
     {
     id:0,
-    image:"/img/down1.jpg",
+    image:"img/down1.jpg",
     title:"عرض كل الكويت",
     price:"8.000د.ك",
      quantity: 1,
 },
     {
         id:1,
-      image:"/img/down2.png",
+      image:"img/down2.png",
     title:"عرض الوطنية",
     price:"20.000د.ك",
      quantity: 1,
 },
     {
         id:2,
-    image:"/img/down3.png",
+    image:"img/down3.png",
     title:"عرض اليوم",
     price:"8.000د.ك",
      quantity: 1,
 },
     {
         id:3,
-    image:"/img/down4.jpg",
+    image:"img/down4.jpg",
     title:"كرتون سيباس تركي",
     price:"32.000د.ك",
      quantity: 1,
 },
     {
         id:4,
-    image:"/img/down5.jpg",
+    image:"img/down5.jpg",
     title:"سلمون نيجيري",
     price:"5.750د.ك"  ,
      quantity: 1,
 },
     {
         id:5,
-    image:"/img/down6.jpg",
+    image:"img/down6.jpg",
     title:"روبيان كبير",
     price:"4.500د.ك" ,
      quantity: 1,
 },
 {
     id:6,
-    image:"/img/down7.jpg",
+    image:"img/down7.jpg",
     title:"1 كيلو روبيان كبير.",
     price:"4.500د.ك",
      quantity: 1,
